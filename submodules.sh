@@ -2,7 +2,7 @@ git submodule add https://github.com/camptocamp/puppet-puppetserver code/environ
 git submodule add https://github.com/puppetlabs/puppetlabs-stdlib code/environments/production/modules/stdlib;
 git submodule add https://github.com/puppetlabs/puppetlabs-puppetdb code/environments/production/modules/puppetdb;
 git submodule add https://github.com/puppetlabs/puppetlabs-inifile code/environments/production/modules/inifile;
-git submodule add git@github.com:puppetlabs/puppetlabs-postgresql.git code/environments/production/modules/postgresql;
+git submodule add https://github.com/puppetlabs/puppetlabs-postgresql code/environments/production/modules/postgresql;
 git submodule add https://github.com/puppetlabs/puppetlabs-concat code/environments/production/modules/concat;
 git submodule add https://github.com/puppetlabs/puppetlabs-firewall code/environments/production/modules/firewall;
 git submodule add https://github.com/puppetlabs/puppetlabs-activemq code/environments/production/modules/activemq;
